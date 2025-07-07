@@ -1,30 +1,98 @@
-# University job exchange
-
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# Uni-Gigs: University Job Exchange Platform
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/adam-alee-s-projects/v0-university-job-exchange-5w)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LLtg1eZDtUC)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Uni-Gigs is a modern university job exchange platform that connects students with part-time job opportunities, gigs, and freelance work. The platform is designed to help students find flexible work that fits around their academic schedules while providing employers with access to talented university students.
 
-## Deployment
+## Features
 
-Your project is live at:
+- **Gig Discovery**: Browse and search for available gigs and part-time jobs
+- **User Profiles**: Create and manage your professional profile
+- **Chat System**: Built-in messaging for seamless communication
+- **Ratings & Reviews**: Rate and review your experience with employers/employees
+- **Responsive Design**: Works seamlessly on both mobile and desktop devices
+- **Real-time Notifications**: Stay updated on new opportunities and messages
 
-**[https://vercel.com/adam-alee-s-projects/v0-university-job-exchange-5w](https://vercel.com/adam-alee-s-projects/v0-university-job-exchange-5w)**
+## Tech Stack
 
-## Build your app
+- **Frontend**: Next.js 13+ with App Router
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI Primitives
+- **State Management**: React Hooks
+- **Form Handling**: React Hook Form
+- **Animations**: Framer Motion & GSAP
+- **Build Tool**: Vite
 
-Continue building your app on:
+## Getting Started
 
-**[https://v0.dev/chat/projects/LLtg1eZDtUC](https://v0.dev/chat/projects/LLtg1eZDtUC)**
+### Prerequisites
 
-## How It Works
+- Node.js 18.0.0 or later
+- npm or pnpm
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/uni-gigs.git
+   cd uni-gigs
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the necessary environment variables.
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
+```
+uni-gigs/
+├── app/                  # App router pages and routes
+│   ├── chat/             # Chat functionality
+│   ├── discover/         # Discover gigs
+│   ├── my-gigs/          # User's posted gigs
+│   ├── notifications/    # User notifications
+│   ├── profile/          # User profiles
+│   └── search/           # Search functionality
+├── components/           # Reusable UI components
+├── lib/                  # Utility functions and data
+├── public/               # Static assets
+└── styles/               # Global styles
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please open an issue on GitHub.
